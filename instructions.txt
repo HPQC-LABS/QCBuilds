@@ -1,5 +1,5 @@
-OpenMolcas
-==============================================
+OpenMolcas, https://gitlab.com/Molcas/OpenMolcas/-/blob/master/README.md
+============================================================================
 git clone https://gitlab.com/Molcas/OpenMolcas.git
 cd OpenMolcas
 git submodule update --init External/lapack
@@ -10,12 +10,12 @@ cmake ../OpenMolcas
 make -j2
 export PATH=$PATH:~/build
 
-PySCF:
-==============================================
+PySCF, https://pyscf.org/install.html
+============================================================================
 git clone https://github.com/pyscf/pyscf.git
 cd pyscf/pyscf/lib
 mkdir build
 cd build
 cmake ..
 make -j2
-export PYTHONPATH=/opt/pyscf:$PYTHONPATH
+export PYTHONPATH=~/pyscf:$PYTHONPATH
